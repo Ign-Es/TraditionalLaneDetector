@@ -12,7 +12,7 @@ color_ranges = {color: tld.ColorRange.fromDict(d) for color, d in list(colors.it
 # Initialize detector
 detector = tld.LineDetector()
 
-#cap = cv2.VideoCapture("test2.mp4")
+#cap = cv2.VideoCapture("images/test_video.mp4")
 cap = cv2.VideoCapture(0)
 while(cap.isOpened()):
     _, image = cap.read()

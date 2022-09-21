@@ -19,7 +19,7 @@ colors:
 
 colors = { 'low_1': [0,0,150], 'high_1': [180,100,255], 'low_2': [25,140,100], 'high_2': [45,255,255] }
 color_range = tld.ColorRange.fromDict(colors)
-im = cv2.imread('../test_image.png')
+im = cv2.imread('../images/test_image.png')
 detector = tld.LineDetector()
 detector.setImage(im)
 detections = detector.detectLines(color_range)

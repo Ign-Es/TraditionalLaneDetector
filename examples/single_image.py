@@ -10,7 +10,7 @@ colors = {"red": red_range, "yellow": yellow_range, "white": white_range}
 color_ranges = {color: tld.ColorRange.fromDict(d) for color, d in list(colors.items())}
 
 # Load image
-image = cv2.imread('../test_image.png')
+image = cv2.imread('../images/test_image.png')
 detector = tld.LineDetector()
 
 # Resize the image to the desired dimensions
