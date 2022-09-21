@@ -2,8 +2,8 @@
 Python implementation of a traditional lane 
 detector based on the lane detection pipeline 
 proposed in the paper ["Duckietown: an Open, Inexpensive and Flexible
-Platform for Autonomy Education and Research"](https://ieeexplore.ieee.org/document/7989179)
-
+Platform for Autonomy Education and Research"](https://ieeexplore.ieee.org/document/7989179).
+![alt text](images/result_video.png "vis")
 # Requirements
 * **Python**
 * **OpenCV** and OpenCV prerequisites.
@@ -20,7 +20,7 @@ a. Install conda following the instructions [here](https://conda.io/projects/con
 
 b. Import the conda environment and activate it
 ```shell
-conda conda env create -n TLD --file enviromet.yml
+conda conda env create -n TLD --file environmet.yml
 conda activate TLD
 ```
 ## ARM architecture computer with archiconda (CPU only)
@@ -28,7 +28,7 @@ a. Install archiconda following the instructions [here](https://github.com/yqlbu
 
 b. Import the conda environment and activate it
 ```shell
-conda conda env create -n TLD --file enviromet.yml
+conda conda env create -n TLD --file environmet.yml
 conda activate TLD
 ```
 # Get Started
