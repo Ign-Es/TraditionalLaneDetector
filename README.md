@@ -23,6 +23,12 @@ b. Import the conda environment and activate it
 conda conda env create -n TLD --file environmet.yml
 conda activate TLD
 ```
+
+c. Clone the repository
+```shell
+git clone https://github.com/Ign-Es/TraditionalLaneDetector.git
+cd TraditionalLaneDetector
+```
 ## ARM architecture computer with archiconda (CPU only)
 a. Install archiconda following the instructions [here](https://github.com/yqlbu/archiconda3)
 
@@ -30,6 +36,12 @@ b. Import the conda environment and activate it
 ```shell
 conda conda env create -n TLD --file environmet.yml
 conda activate TLD
+```
+
+c. Clone the repository
+```shell
+git clone https://github.com/Ign-Es/TraditionalLaneDetector.git
+cd TraditionalLaneDetector
 ```
 # Get Started
 The "examples" directory includes to simple examples
